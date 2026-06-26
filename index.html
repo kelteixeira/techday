@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDay 2026 -SENAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TechDay 2026</h1>
+        <ul>
+            <li><a class="menu" href="#sobre">Sobre</a></li>
+            <li><a class="menu" href="#cronograma">Cronograma</a></li>
+            <li><a class="menu" href="#inscricao">Inscrição</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>O evento</h2>
+            <p>
+                Será um dia de palestras imperdíveis sobre <strong>Desenvolvimento Web</strong>, <strong>Inteligência Artifical</strong> e <strong>Robótica</strong>.
+            </p>
+        </section>
+        <section id="cronograma">
+            <h2>Programação</h2>
+            <ol>
+                <li><strong>08:00</strong> - Abertura dos portões;</li>
+                <li><strong>09:00</strong> - Credenciamento e CoffeeBreak;</li>
+                <li><strong>10:00</strong> - Desenvolvimento Web com Luciano Borges;</li>
+                <li><strong>11:00</strong> - Inteligência Artificial com Maria Almeida;</li>
+                <li><strong>12:00</strong> - Pausa para almoço;</li>
+                <li><strong>14:00</strong> - Robótica com alunos do SENAI.</li>
+            </ol>
+        </section>
+        <section id="inscricao">
+            <h2>Garanta sua Vaga</h2>
+            <form action="" method="post">
+                <fieldset>
+                    <div class="form-grid">
+                        <label for="nome-completo">Nome Completo: </label>
+                        <input type="text" name="nome"
+                        id="nome-completo" placeholder="Maria Oliveira" required>
+                    </div>
+                    <div class="form-grid">
+                        <label for="email">Email Profissional: </label>
+                        <input type="email" name="email"
+                        id="email" placeholder="maria@teste.com" required>
+                    </div>
+                    <div class="form-grid">
+                        <label for="telefone">Telefone/WhatsApp: </label>
+                        <input type="tel" 
+                        id="telefone" placeholder="(00) 0000-0000" required>
+                    </div>
+                    <div class="form-grid">
+                        <label for="data-nascimento">Data de Nascimento: </label>
+                        <input type="date" name="data-nascimento"
+                        id="data-nascimento" placeholder="01/01/2001" required> 
+                    </div>
+                    <button type="submit">Finalizar Inscrição</button>
+                </fieldset>
+              </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Todos os direitos reservados SENAI.
+        </p>
+        <P>
+            Rua Belém, 844 - Centro, Londrina - PR, 86026-040.
+        </P>
+    </footer>
+</body>
+</html>
