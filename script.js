@@ -44,6 +44,5 @@ form.addEventListener(
 
         form.style.display="none";
         const secaoinscricao = document.getElementById("secao-inscricao");
-
-        
+    }
 )
